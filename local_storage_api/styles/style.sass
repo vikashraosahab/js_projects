@@ -1,0 +1,60 @@
+@import 'variables'
+*
+  margin: 0px
+  padding: 0px 
+  box-sizing: border-box
+
+body 
+  width: 100% 
+  height: 100% 
+  background-color: $primary_bg_color 
+
+main 
+  h2 
+    text-align: center
+    font-family: verdana
+    text-transform: uppercase
+    letter-spacing: 2px
+    margin-top: 5px
+    font-size: 30px
+  .content-box 
+    max-width: 600px
+    text-align: center
+    background-color: red
+    padding: 2em
+    margin: 10% auto
+    .input
+      display: flex 
+      flex-wrap: no-wrap
+      align-items: center 
+      justify-content: space-around
+      margin-bottom: 3em
+      label 
+        font-family: verdana
+        font-size: 15px 
+        text-transform: uppercase
+        letter-spacing: 2px 
+        color: $second_text_color
+        border: .5px solid $second_text_color
+        height: 1.2em
+      input 
+        width: 400px 
+        padding: .5em 2em 
+        border-radius: 3px
+        outline: none
+        border: none
+button 
+  background-color: cyan
+  padding: .5em 3em
+  border-radius: 10px 
+  border: none
+  outline: none
+  text-transform: lowercase 
+  letter-spacing: .1em
+  &:hover 
+      background-color: $primary_bg_color
+      color: $second_bg_color
+
+.data-output 
+  text-align: center 
+    
